@@ -1,0 +1,521 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+
+
+html, body {
+	/*background-color: #BFF1F1 !important;*/ /*LIGHT BLUE*/
+	/*background-color: #ffffff !important;*/	/*WHITE*/
+	background-color: #BFF1D9 !important;	/*LIGHT GREEN*/
+}
+
+
+
+
+
+
+/********************************		Navbar!!! 			*******************************/
+/********************************		Navbar!!! 			*******************************/
+.navbar, .navbar-fixed-top {
+	background-color: #ffffff;
+	border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.navbar-header .navbar-brand  {
+	font-family: 'Pinyon Script', cursive;
+	color: #F7AAB5;
+	
+	/*height: 50%;*/
+	text-align: center;
+	font-size: 500%;
+	font-weight: bold;
+	transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+    text-shadow: 0px 3px 0px #F4798B,
+    			 /*0px 3px 0px #b2a98f,*/
+
+/*                 0px 4px 10px rgba(0,0,0,0.15),
+                 0px 9px 2px rgba(0,0,0,0.1),
+                 0px 14px 30px rgba(0,0,0,0.1);
+*/
+
+	
+}
+
+.navbar-header .navbar-brand:hover {
+	color: #F6CCD2;
+}
+
+nav {
+	padding-top: 25px;
+	padding-left: 30px;
+	height: 100px !important;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow:	0px 3px 0px #b2a98f,
+                 0px 4px 10px rgba(0,0,0,0.15),
+                 0px 14px 2px rgba(0,0,0,0.1),
+                 0px 24px 30px rgba(0,0,0,0.1);    
+}
+
+.navbar-fixed-top {
+
+	border: 5px dotted #F7AAB5;
+}
+.navbar-fixed-top:hover {
+	border: 5px dotted #F6CCD2;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Style Nav links*/
+
+.navbar-fixed-top .navbar-nav > li > a {
+	padding-left: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #019285;
+}
+
+
+
+
+/********************************		Navbar!!! 			*******************************/
+/********************************		Navbar!!! 			*******************************/
+
+
+
+
+.intro {
+	overflow: hidden;
+	margin: 0;
+	display: table;
+	height: 100%;
+	margin-left: -6%;
+	width: 112%;
+	padding-left: 50px;
+	padding-right: 50px;
+	bottom: 0px;
+	background: inherit;
+	-o-object-fit:contain;
+	object-fit: contain;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	/*background-color: lightblue;*/
+	padding-bottom: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.artisanat-tron {
+	overflow: hidden;
+	margin-top: 30px;
+	margin-bottom: 80px;
+	background-color:#ffffff;
+	text-align: center;
+	border: 5px dotted #F7AAB5;
+	/*border-radius: 20px !important;*/
+	border-radius: 50% !important;
+	cursor: url("icon/favicon.png");
+}
+
+.artisanat-tron h1 {
+	font-family: 'Pinyon Script', cursive;
+	color: #F7AAB5;
+	
+	/*height: 50%;*/
+	text-align: center;
+	font-size: 1500%;
+	font-weight: bold;
+	text-shadow: 0px 4px 0px #F4798B;
+	transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+}
+
+.artisanat-tron h1:hover {
+	color: #F6CCD2;
+}
+
+
+.artisanat-tron p {
+	/*color: #C2F7AA;*/
+	/*color: #F4798B;*/
+	color: #35ADEC;
+	font-weight: bold;
+	/*-webkit-text-stroke: 1px #F4798B;;*/
+}
+
+
+
+
+
+
+
+
+
+/*My own class to center text...*/
+.center {
+	text-align: center;
+}
+
+
+.bringdown {
+	margin-top: 150px;
+}
+
+
+
+
+.btn-circle {
+  width: 70px;
+  height: 70px;
+  margin-top: 15px;
+  padding: 7px 16px;
+  border: 2px solid white;
+  border-radius: 100% !important;
+  font-size: 40px;
+  color: white;
+  background: transparent;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+.btn-circle:hover,
+.btn-circle:focus {
+  outline: none;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+}
+.btn-circle i.animated {
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-duration: 1s;
+  -moz-transition-property: -moz-transform;
+  -moz-transition-duration: 1s;
+}
+.btn-circle:hover i.animated {
+  -webkit-animation-name: pulse;
+  -moz-animation-name: pulse;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+}
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-moz-keyframes pulse {
+  0% {
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  100% {
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+
+
+
+
+
+
+.bar {
+	width: 100%;
+	margin: 0;
+	height: 10px;
+
+}
+
+
+
+.btn-info {
+	background-color: rgb(49, 176, 213);
+	border: 2px solid rgb(38, 154, 188);
+
+}
+
+.btn-info:hover {
+	background-color: rgb(91, 192, 222)
+;
+	border: 2px solid #F7AAB5;
+}
+
+
+
+/*hover:
+
+rgb(49, 176, 213)
+;
+rgb(38, 154, 188)
+;
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+.artisanaticon  {
+	width: 122px !important;
+	height: 122px !important;
+	margin: 0 auto;
+	margin-top: 80px;
+	/*margin: 100px;*/
+	padding: 10px;
+	border: 5px dotted #F7AAB5;
+	border-radius: 20px;
+	background-color: #ffffff;
+	box-shadow:	0px 3px 0px #b2a98f,
+             	0px 4px 10px rgba(0,0,0,0.15),
+                0px 14px 2px rgba(0,0,0,0.1),
+                0px 24px 30px rgba(0,0,0,0.1);  
+
+
+
+	/*font-size: 300%;*/
+
+	
+}
+
+.artisanaticon h1 {
+	color: #F7AAB5;
+	text-align: center;
+	font-family: 'Pinyon Script', cursive;
+	font-weight: bold;
+	text-shadow: 0px 3px 0px #F4798B;
+	padding: 10px;
+	margin-left: -7px;
+	margin-top: 0px;
+	padding-bottom: 20px;
+	font-size: 6em;
+	
+}
+
+
+/*
+.listingsTable * {
+	margin-top: 5px !important;
+}
+
+ */
+
+
+
+
+
+
+#listings {
+	padding-top: 130px;
+}
+
+.btnforlistings {
+	height: 10%;
+	width: 20%;
+	background-color: rgba(255, 255, 255, 0);
+	color: #ffffff;
+	border: 2px solid white;
+	border-radius: 20px;
+	padding-top: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	transition: all 0.5s ease-in-out;
+
+
+
+}
+
+.btnforlistings:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+	border: 2px solid white;
+	font-size: 24px;
+	font-weight: 300%;
+	color:#26C7EC;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.thumbnail {
+	border: 5px dotted #F7AAB5;
+}
+.thumbnail:hover {
+	border: 5px dotted #F6CCD2;
+}
+.thumbnailMedium {
+	min-height: 320px !important;
+	line-height:120px;
+    text-align:center;
+	
+}
+
+.thumbnailMedium img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	vertical-align: middle !important;
+}
+
+
+
+
+.pricetag {
+	background-color: lightblue;
+	border: 1px solid darkblue;
+}
+
+
+
+
+
+
+
+.center {
+	text-align: center;     /*Center text for anything I add a .center class*/
+}
+
+
+
+
+
+
+
+
+/*Nth CHILD USAGE!!!*/
+/*4n+1 is for whenever our 4 columns get maxed out by a new "5th" item... need to start a new line*/
+.col-md-3:nth-child(4n+1) {
+	clear:left;
+}
+
+
+
+/*FOR STYLING THE SHOW PAGE*/
+.col-md-6 {
+
+
+	h3 {
+		font-size: 45px;
+	}
+	h5 {
+		font-size: 25px;
+	}
+	p {
+		font-size: 18px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************************		FOOTER!!! 			*******************************/
+
+footer {
+	position: absolute;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+	font-size: 150%;
+	margin: 0 auto;
+	/*margin-top: 100px;*/
+	width: 100%;
+	background-color: #ffffff;
+	color: #368EE1;
+	text-align: center;
+	font-weight: bold;
+	padding: 1rem;
+	border: 5px dotted #F7AAB5;
+  	/*border-radius: 20px;*/
+  	border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  	box-shadow:	0px -3px 0px #b2a98f,
+                 0px -4px 10px rgba(0,0,0,0.15),
+                 0px -9px 2px rgba(0,0,0,0.1),
+                 0px -14px 30px rgba(0,0,0,0.1); 
+
+}
+
+footer:hover {
+	border: 5px dotted #F6CCD2;
+}
+/******************************		FOOTER!!! 			*******************************/

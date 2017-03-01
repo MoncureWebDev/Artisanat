@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Artisanat	  A Marketplace for	Arts, Crafts, and Homemade Goods</title>
+  	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  	<%= csrf_meta_tags %>
+  	<!-- <link href="font-awesome.css" rel="stylesheet" type="text/css"> -->
+  	<link href="https://fonts.googleapis.com/css?family=Pinyon+Script" rel="stylesheet">
+<!-- 
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/icon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="assets/icon/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="assets/icon/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="assets/icon/manifest.json">
+	<link rel="mask-icon" href="assets/icon/safari-pinned-tab.svg" color="#fccbcb">
+	<link rel="shortcut icon" href="assets/icon/favicon.ico">
+	<meta name="msapplication-config" content="assets/icon/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff"> -->
+	<link rel="icon" type="image/png" href="assets/icon.png">
+</head>
+
+
+
+<body>
+<%= render 'layouts/header' %>
+
+
+<!-- <img src="/assets/icon/apple-touch-icon.png" /> -->
+
+<div class="bringdown"></div>
+
+
+
+<div class="container">
+
+<%= yield %>
+
+</div>
+<%#= render 'layouts/footer' %>
+
+
+
+<!-- </div> --><!--END of .intro div-->
+
+
+
+
+
+</body>
+</html>

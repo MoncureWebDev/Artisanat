@@ -1,0 +1,64 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+html, body {
+	height:100%;
+  	margin:0;
+	background-color: #D1ECF5;
+	color: white;
+}
+
+
+
+
+.basiccontainer {
+	font-size: 150%;
+	margin: 0 auto;
+	margin-top: 100px;
+	width: 60%;
+	background-color: #ffffff;
+	color: #368EE1;
+	text-align: center;
+	font-weight: bold;
+	padding: 20px;
+	border: 2px solid #368EE1;
+	border-radius: 20px;
+}
+
+.basiccontainer p {
+	font-weight: bold;
+}
+
+
+
+.basiccontainer h1 {
+	text-decoration: underline;
+	font-size: 200%;
+	background-color: #368EE1;
+  	color: transparent;
+  	/*text-shadow: 0px 2px 3px rgba(255,255,255,0.5);*/
+  	text-shadow: 0px 2px 3px rgba(255,255,255,0.8);
+    -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+}
+
+.basiccontainer p, .basiccontainer h3 {
+	background-color: #368EE1;
+  	color: transparent;
+	text-shadow: 0px 2px 3px rgba(255,255,255,0.65);
+    -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+}
+
+
+
+
+
+
+
+
+
